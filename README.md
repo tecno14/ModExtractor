@@ -8,3 +8,5 @@ If the file is of the same size but different in Lastwritetime, checksum is comp
 
 
 ![alt text](https://github.com/tecno14/ModExtractor/blob/master/p1.png?raw=true)
+
+![alt text](https://github.com/tecno14/ModExtractor/blob/master/p2.png?raw=true)
