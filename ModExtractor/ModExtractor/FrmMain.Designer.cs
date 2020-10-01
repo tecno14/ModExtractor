@@ -40,6 +40,7 @@
             this.BtnDestinationMod = new System.Windows.Forms.Button();
             this.BtnStartMoveModFiles = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,6 +110,7 @@
             this.tableLayoutPanel1.Controls.Add(this.BtnDestinationMod, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.BtnStartMoveModFiles, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.label4, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.linkLabel1, 0, 4);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -181,6 +183,18 @@
             this.label4.Text = "wael.had.sy@gmail.com\r\n2020";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(24, 175);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(42, 13);
+            this.linkLabel1.TabIndex = 9;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Donate";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -212,6 +226,7 @@
         private System.Windows.Forms.Button BtnDestinationMod;
         private System.Windows.Forms.Button BtnStartMoveModFiles;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

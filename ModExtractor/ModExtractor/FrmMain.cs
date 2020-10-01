@@ -52,6 +52,11 @@ namespace ModExtractor
         {
             new FrmProcess(TbModedGame.Text, TbOrginalGame.Text, TbDestinationMod.Text).ShowDialog();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.paypal.com/paypalme/ModMng");
+        }
     }
 }
 
