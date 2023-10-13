@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
-using System.IO;
 
 namespace ModExtractor
 {
@@ -55,7 +49,12 @@ namespace ModExtractor
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.paypal.com/paypalme/ModMng");
+            System.Diagnostics.Process.Start("https://www.buymeacoffee.com/EmisaTec");
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/tecno14/ModExtractor");
         }
     }
 }
