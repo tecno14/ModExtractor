@@ -56,6 +56,11 @@ namespace ModExtractor
         {
             System.Diagnostics.Process.Start("https://github.com/tecno14/ModExtractor");
         }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.fb.com/EmisaTec");
+        }
     }
 }
 
